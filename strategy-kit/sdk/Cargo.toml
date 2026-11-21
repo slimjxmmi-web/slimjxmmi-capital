@@ -1,0 +1,9 @@
+[package]
+name = "sjxm"
+version = "1.0.0"
+edition = "2021"
+description = "What a SlimJxmmi Capital strategy file is written against: the bar it is fed, the signal it returns, and the exports the engine calls."
+
+[dev-dependencies]   # the tests check the New York clock against the time zone database; the crate itself needs nothing
+chrono = { version = "0.4", default-features = false }
+chrono-tz = { version = "0.10", default-features = false }
