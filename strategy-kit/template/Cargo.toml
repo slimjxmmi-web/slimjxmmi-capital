@@ -1,0 +1,11 @@
+[package]
+name = "template"
+version = "0.1.0"
+edition = "2021"
+description = "A strategy to start from: fires nothing until you write your rule."
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+sjxm = { path = "../sdk" }
